@@ -1,15 +1,10 @@
-import React from 'react';
-import Greeting from './components/Greeting.jsx';
-import ListItems from './components/ListItems.jsx';
 
+import Board from './components/Board'
 
-  
 function App() {
-    return (
-        <div>
-            <ListItems />
-        </div>
-    );
+  return (
+<Board knightPosition={[0, 0]} />
+  );
 }
 
 export default App;
