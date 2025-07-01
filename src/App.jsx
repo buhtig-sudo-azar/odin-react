@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 
 const UserCard = ({ name, age, city, mail }) => (
@@ -90,6 +91,14 @@ function App() {
 
       <UserCard name={fields.name} age={fields.age} city={fields.city} mail={fields.mail} />
     </div>
+=======
+
+import Board from './components/Board'
+
+function App() {
+  return (
+<Board knightPosition={[0, 0]} />
+>>>>>>> bfd9bae1d4120de8eb356a7f323a74e3d8f67a5e
   );
 }
 
